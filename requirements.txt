@@ -1,0 +1,7 @@
+langchain==0.0.307
+streamlit
+streamlit_chat
+google-generativeai
+faiss-cpu
+PyPDF2
+pytest
