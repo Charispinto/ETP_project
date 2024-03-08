@@ -1,8 +1,9 @@
 # import config
 import os
-API_KEY = os.getenv('API_KEY')
-
 import streamlit as st
+API_KEY = st.secrets["API_KEY"]
+
+
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import GooglePalmEmbeddings
