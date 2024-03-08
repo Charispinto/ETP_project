@@ -1,5 +1,6 @@
 # import config
-API_KEY = `${{ secrets.API_KEY }}`
+
+API_KEY = os.getenv('API_KEY')
 
 import streamlit as st
 from PyPDF2 import PdfReader
