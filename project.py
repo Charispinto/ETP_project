@@ -1,5 +1,5 @@
 # import config
-
+import os
 API_KEY = os.getenv('API_KEY')
 
 import streamlit as st
